@@ -58,6 +58,7 @@ Présentation du 21/01/2019
 ![](assets/img/LSTM.png)
 @snapend
 
+---
 ## Semantic Slot Filling et reconnaissance d'intents
 ---
 @snap[north-west]
@@ -67,6 +68,7 @@ Présentation du 21/01/2019
 @snap[west span-50]
 @ul
 - Similaire au NER
+- Features pour l'intent: concatenation des dernières hidden state
 - Une loss pour les slots
 - Une loss pour les intents
 - A mitiger !
