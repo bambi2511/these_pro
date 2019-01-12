@@ -11,6 +11,7 @@ Présentation du 21/01/2019
 
 @snap[west span-55]
 @ul
+- La société SouthPigalle
 - Propagation de labels
 - Reconnaissance d'entités nommées
 - Semantic Slot Filling et reconnaissance d'intents
@@ -18,7 +19,13 @@ Présentation du 21/01/2019
 @snapend
 
 ---
-##
+## Propagation de labels
+---
+## Reconnaissance d'entités nommées
+---
+?image=assets/img/RNN_NER.png
+---
+## Semantic Slot Filling et reconnaissance d'intents
 ---
 
 ---
