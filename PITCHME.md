@@ -1,9 +1,26 @@
-# Thèse professionnelle.
+# SouthPigalle
 
-Presentation
+Thèse professionnelle de François Lecerf
+Présentation du 21/01/2019
 
 ---
+@snap[north-west]
+## Présentation
+@snapend
 
+@snap[west span-55]
+@ul[spaced text-white]
+- Propagation de labels
+- Reconnaissance d'entités nommées
+- Semantic Slot Filling et reconnaissance d'intents
+@ulend
+@snapend
+
+---
+##
+---
+
+---
 ## Add Some Slide Candy
 
 ![](assets/img/presentation.png)
