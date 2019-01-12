@@ -30,7 +30,7 @@ Présentation du 21/01/2019
 @snap[west span-50]
 @ul
 - Tokenization
-- Embedding
+- Embedding layer
 - Bi-LSTM
 - Fully connected
 - Cross-entropy
@@ -41,9 +41,41 @@ Présentation du 21/01/2019
 ![](assets/img/RNN_NER.png)
 @snapend
 ---
+@snap[north-west]
+### La cellule LSTM
+@snapend
+
+@snap[west span-50]
+@ul
+- Contexte partagé
+- Forget Gate
+- Update Gate
+- Output Gate
+@ulend
+@snapend
+
+@snap[east span-50]
+![](assets/img/LSTM.png)
+@snapend
+
 ## Semantic Slot Filling et reconnaissance d'intents
 ---
+@snap[north-west]
+### Architecture
+@snapend
 
+@snap[west span-50]
+@ul
+- Similaire au NER
+- Une loss pour les slots
+- Une loss pour les intents
+- A mitiger !
+@ulend
+@snapend
+
+@snap[east span-50]
+![](assets/img/RNN_SSF.png)
+@snapend
 ---
 ## Add Some Slide Candy
 
