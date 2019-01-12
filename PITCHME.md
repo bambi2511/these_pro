@@ -23,7 +23,7 @@ Présentation du 21/01/2019
 ---
 ## Reconnaissance d'entités nommées
 ---
-?image=assets/img/RNN_NER.png
+---?image=assets/img/RNN_NER.png
 ---
 ## Semantic Slot Filling et reconnaissance d'intents
 ---
