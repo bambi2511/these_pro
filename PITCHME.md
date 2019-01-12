@@ -23,11 +23,16 @@ Présentation du 21/01/2019
 ---
 ## Reconnaissance d'entités nommées
 ---
-@snap[west span-50]
+@snap[north-west]
 ### Architecture
+@snapend
+
+@snap[west span-50]
 @ul
+- Tokenization
 - Embedding
 - Bi-LSTM
+- Fully connected
 - Cross-entropy
 @ulend
 @snapend
