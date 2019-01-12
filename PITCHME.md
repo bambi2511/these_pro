@@ -9,17 +9,53 @@ Présentation du 21/01/2019
 ## Présentation
 @snapend
 
-@snap[west span-55]
+@snap[center]
 @ul
 - La société SouthPigalle
-- Propagation de labels
+- Labellisation semi-supervisée
 - Reconnaissance d'entités nommées
 - Semantic Slot Filling et reconnaissance d'intents
 @ulend
 @snapend
 
 ---
-## Propagation de labels
+## Labellisation semi-supervisée
+---
+@snap[north-west]
+### Principe
+@snapend
+
+@snap[center]
+@ul
+- 400 données annotées
+- Labelliser automatiquement les observations très similaires
+- Labelliser manuellement les observations ambigües
+- Effectuer ces opérations de façon contrôlée
+- Deux datasets clients pur lesquels on cherche à prédire l'intent: My Little Box, GameLoft
+@ulend
+@snapend
+---
+@snap[north-west]
+### Méthode
+@snapend
+
+@snap[center]
+@ul
+- **Metric learning**: trouver un embedding séparant bien les classes des données annotées
+- **Clustering spectral**: identifier des clusters homogène
+- Identifier les paramètres séparant bien les clusters sur le jeu de train d'un point de vue précision
+- Utiliser le jeu de test pour vérifier que le modèle se généralisera bien
+- Propager les labels sur les clusters dont la précision sur une classe est supérieure à un seuil
+@ulend
+@snapend
+---
+@snap[north-west]
+### Metric learning
+@snapend
+---
+@snap[north-west]
+### Clustering spectral
+@snapend
 ---
 ## Reconnaissance d'entités nommées
 ---
