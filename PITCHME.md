@@ -1,6 +1,7 @@
 # SouthPigalle
 
 Thèse professionnelle de François Lecerf
+
 Présentation du 21/01/2019
 
 ---
@@ -9,7 +10,7 @@ Présentation du 21/01/2019
 @snapend
 
 @snap[west span-55]
-@ul[spaced text-white]
+@ul
 - Propagation de labels
 - Reconnaissance d'entités nommées
 - Semantic Slot Filling et reconnaissance d'intents
