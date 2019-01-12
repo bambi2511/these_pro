@@ -28,10 +28,10 @@ Présentation du 21/01/2019
 @snap[center]
 @ul
 - 400 données annotées
-- Labelliser automatiquement les observations très similaires
+- Labelliser automatiquement les observations similaires
 - Labelliser manuellement les observations ambigües
 - Effectuer ces opérations de façon contrôlée
-- Deux datasets clients pur lesquels on cherche à prédire l'intent: My Little Box, GameLoft
+- Prédire l'intent sur deux datasets clients: My Little Box, GameLoft
 @ulend
 @snapend
 ---
@@ -41,11 +41,11 @@ Présentation du 21/01/2019
 
 @snap[center]
 @ul
-- **Metric learning**: trouver un embedding séparant bien les classes des données annotées
-- **Clustering spectral**: identifier des clusters homogène
-- Identifier les paramètres séparant bien les clusters sur le jeu de train d'un point de vue précision
-- Utiliser le jeu de test pour vérifier que le modèle se généralisera bien
-- Propager les labels sur les clusters dont la précision sur une classe est supérieure à un seuil
+- **Metric learning**: embedding séparant bien les observations annotées
+- **Clustering spectral**: clusters homogène
+- **Train**: avoir des clusters homogènes (précision)
+- **Test**: vérifier que le modèle se généralisera bien
+- Propager les labels sur les clusters dont la précision sur la classe majoritaire est supérieure à un seuil
 @ulend
 @snapend
 ---
