@@ -23,7 +23,18 @@ Présentation du 21/01/2019
 ---
 ## Reconnaissance d'entités nommées
 ---
----?image=assets/img/RNN_NER.png
+@snap[west span-50]
+### Architecture
+@ul
+- Embedding
+- Bi-LSTM
+- Cross-entropy
+@ulend
+@snapend
+
+@snap[east span-50]
+![](assets/img/RNN_NER.png)
+@snapend
 ---
 ## Semantic Slot Filling et reconnaissance d'intents
 ---
