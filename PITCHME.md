@@ -25,11 +25,14 @@ Présentation du 21/01/2019
 - Start-up fondée en 2015
 - Levier de création de valeur: le texte
 - Membre de la French Tech,
-> LVMH: la maison des start-up, la Fabrique(l'usine.io), partenaire Microsoft 
-@ulend
+  - LVMH: la maison des start-up
+  - La Fabrique(l'usine.io)
+  - Partenaire Microsoft
 @snap[south-east]
 ![](assets/img/logo-french-tech-small-150x150.png)
 @snapend
+@ulend
+
 ---
 ## Labellisation semi-supervisée
 ---
