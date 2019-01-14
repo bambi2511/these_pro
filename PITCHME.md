@@ -127,7 +127,6 @@ Présentation du 21/01/2019
 @snapend
 
 @snap[west]
-
 Cluster | Top | Precision | Proportion
 ----- | ----- | ----- | -----
 0 | contenu | 1 | 0.18
@@ -135,11 +134,10 @@ Cluster | Top | Precision | Proportion
 4 | livraison | 0.8 | 0.15
 1 | livraison | 0.76 | 0.14
 3 | promotion | 0.40 | 0.12
-
 @snapend
 
 @snap[east]
-<img src="assets/img/mlb_ttu_clustering.png" height="400">
+<img src="assets/img/mlb_ttu_clustering.png" height="600">
 @snapend
 ---
 @snap[north-west]
