@@ -126,21 +126,13 @@ Présentation du 21/01/2019
 ### Clustering spectral - MLB - Clustering
 @snapend
 
-@snap[west]
 | Cluster | Top | Precision | Proportion |
-
 | ----- | ----- | ----- | ----- |
-
 | 0 | contenu | 1 | 0.18 |
-
 | 2 | livraison | 1 | 0.14 |
-
 | 4 | livraison | 0.8 | 0.15 |
-
 | 1 | livraison | 0.76 | 0.14 |
-
 | 3 | promotion | 0.40 | 0.12 |
-@snapend
 
 @snap[east]
 <img src="assets/img/mlb_ttu_clustering.png" height="500">
