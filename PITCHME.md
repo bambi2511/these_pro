@@ -99,8 +99,8 @@ Présentation du 21/01/2019
 ### Metric learning - MLB - Nouvel espace
 @snapend
 
-@snap[south]
-<img src="assets/img/mlb_ML.png" height="550">
+@snap[center]
+<img src="assets/img/mlb_ML.png" height="400">
 @snapend
 ---
 @snap[north-west]
@@ -128,7 +128,7 @@ Présentation du 21/01/2019
 
 @snap[west]
 @ul[](false)
-- Cluster | Top | Precision | Proportion |
+- Cl | Top | Precision | Ratio |
 - 0 | contenu | 1 | 0.18 |
 - 2 | livraison | 1 | 0.14 |
 - 4 | livraison | 0.8 | 0.15 |
