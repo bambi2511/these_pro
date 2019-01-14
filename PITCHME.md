@@ -126,10 +126,10 @@ Présentation du 21/01/2019
 ### Clustering spectral - MLB - Clustering
 @snapend
 
-@snap[center-west]
+@snap[west]
 
 Cluster | Count | Unique | Top | Freq | Precision | Proportion
------|-----|-----|-----|-----|-----|-----
+----- | ----- | ----- | ----- | ----- | ----- | -----
 0 | 29 | 1 | contenu | 29 | 1 | 0.18239
 2 | 23 | 1 | livraison | 23 | 1 | 0.14465
 4 | 30 | 5 | livraison | 24 | 0.8 | 0.15094
@@ -138,9 +138,13 @@ Cluster | Count | Unique | Top | Freq | Precision | Proportion
 
 @snapend
 
-@snap[center-east]
+@snap[east]
 <img src="assets/img/mlb_ttu_clustering.png" height="400">
 @snapend
+---
+cluster | Count
+----- | -----
+0 | 2
 ---
 @snap[north-west]
 ### CS - MLB - Propagation de labels
