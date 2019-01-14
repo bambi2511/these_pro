@@ -79,7 +79,7 @@ Présentation du 21/01/2019
 @ulend
 
 ---
-snap[north-west]
+@snap[north-west]
 ### Metric learning - MLB - LOSS
 @snapend
 
@@ -87,7 +87,7 @@ snap[north-west]
 ![](assets/img/mlb_loss.png)
 @snapend
 ---
-snap[north-west]
+@snap[north-west]
 ### Metric learning - MLB - AUC SCORE
 @snapend
 
@@ -95,7 +95,7 @@ snap[north-west]
 ![](assets/img/mlb_roc.png)
 @snapend
 ---
-snap[north-west]
+@snap[north-west]
 ### Metric learning - MLB - NOUVEL ESPACE
 @snapend
 
@@ -114,7 +114,7 @@ snap[north-west]
 - Projection des observations et clustering
 @ulend
 ---
-snap[north-west]
+@snap[north-west]
 ### Clustering spectral - MLB - Spectre du Laplacien
 @snapend
 
@@ -122,7 +122,7 @@ snap[north-west]
 ![](assets/img/mlb_eigenvalues.png)
 @snapend
 ---
-snap[north-west]
+@snap[north-west]
 ### Clustering spectral - MLB - Clustering
 @snapend
 
@@ -130,7 +130,7 @@ snap[north-west]
 ![](assets/img/mlb_ttu_clustering.png)
 @snapend
 ---
-snap[north-west]
+@snap[north-west]
 ### Clustering spectral - MLB - Propagation de labels
 @snapend
 
