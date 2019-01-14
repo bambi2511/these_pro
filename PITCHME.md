@@ -26,7 +26,7 @@ Présentation du 21/01/2019
 - Levier de création de valeur: le texte
 - Membre de la French Tech,
   - LVMH: la maison des start-up
-  - La Fabrique(l'usine.io)
+  - La Fabrique (L'usine.io)
   - Partenaire Microsoft
 @ulend
 
@@ -158,6 +158,7 @@ Présentation du 21/01/2019
 @snap[west span-50]
 @ul
 - Tokenization
+- Mini batches
 - Embedding layer
 - Bi-LSTM
 - Fully connected
@@ -200,7 +201,7 @@ Présentation du 21/01/2019
 @snapend
 
 @snap[center]
-![](assets/img/NER_RCV2_result.png)
+<img src="assets/img/NER_RCV2_result.png" height="500">
 @snapend
 ---
 @snap[north-west]
@@ -212,21 +213,11 @@ Présentation du 21/01/2019
 @snapend
 ---
 @snap[north-west]
-### NER - RCV2 - Test sur messages custom
+### NER - RCV2 - Messages hors contexte
 @snapend
 
 @snap[center]
 ![](assets/img/NER_recognition_example.png)
-@snapend
----
-## Semantic Slot Filling et reconnaissance d'intents
----
-@snap[north-west]
-### NER - RCV2 - Scores
-@snapend
-
-@snap[center]
-![](assets/img/NER_scores.png)
 @snapend
 ---
 ## Semantic Slot Filling et reconnaissance d'intents
@@ -270,11 +261,15 @@ Présentation du 21/01/2019
 @snapend
 
 @snap[center]
-![](assets/img/ATIS_predictions.png)
+<img src="assets/img/ATIS_predictions.png" height="500">
+
 @snapend
 ---
 # Conclusion
 ---
+@snap[north-west]
+## Conclusion
+@snapend
 @snap[center]
 @ul
 - Secteur très riche en terme de cas d'utilisation
