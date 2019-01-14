@@ -59,7 +59,9 @@ Présentation du 21/01/2019
 @ul
 - **Metric learning**: embedding séparant bien les observations annotées
 - **Clustering spectral**: clusters homogène
-- **Train**: avoir des clusters homogènes (précision)
+- **Train**: objectifs
+ - **ML** avoir des classes bien séparées
+ - **CS** avoir des clusters homogènes (précision)
 - **Test**: vérifier que le modèle se généralisera bien
 - Propager les labels sur les clusters dont la précision sur la classe majoritaire est supérieure à un seuil
 @ulend
@@ -77,6 +79,30 @@ Présentation du 21/01/2019
 @ulend
 
 ---
+snap[north-west]
+### Metric learning - MLB - LOSS
+@snapend
+
+@snap[center]
+![](assets/img/mlb_loss.png)
+@snapend
+---
+snap[north-west]
+### Metric learning - MLB - AUC SCORE
+@snapend
+
+@snap[center]
+![](assets/img/mlb_roc.png)
+@snapend
+---
+snap[north-west]
+### Metric learning - MLB - NOUVEL ESPACE
+@snapend
+
+@snap[center]
+![](assets/img/mlb_ML.png)
+@snapend
+---
 @snap[north-west]
 ### Clustering spectral
 @snapend
@@ -87,7 +113,30 @@ Présentation du 21/01/2019
 - Calculs des derniers vecteurs propres
 - Projection des observations et clustering
 @ulend
+---
+snap[north-west]
+### Clustering spectral - MLB - Spectre du Laplacien
+@snapend
 
+@snap[center]
+![](assets/img/mlb_eigenvalues.png)
+@snapend
+---
+snap[north-west]
+### Clustering spectral - MLB - Clustering
+@snapend
+
+@snap[center]
+![](assets/img/mlb_ttu_clustering.png)
+@snapend
+---
+snap[north-west]
+### Clustering spectral - MLB - Propagation de labels
+@snapend
+
+@snap[center]
+![](assets/img/mlb_label_propagation.png)
+@snapend
 ---
 ## Reconnaissance d'entités nommées
 ---
