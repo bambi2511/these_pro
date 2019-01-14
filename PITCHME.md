@@ -28,10 +28,11 @@ Présentation du 21/01/2019
   - LVMH: la maison des start-up
   - La Fabrique(l'usine.io)
   - Partenaire Microsoft
+@ulend
+
 @snap[south-east]
 ![](assets/img/logo-french-tech-small-150x150.png)
 @snapend
-@ulend
 
 ---
 ## Labellisation semi-supervisée
@@ -67,10 +68,26 @@ Présentation du 21/01/2019
 @snap[north-west]
 ### Metric learning
 @snapend
+
+@ul
+- Apprentissage d'une pseudo-distance
+- Utilisation d'une perte de type triplet loss
+- Gradient stochastique avec minibatches
+- Projection des observations dans le nouvel espace
+@ulend
+
 ---
 @snap[north-west]
 ### Clustering spectral
 @snapend
+
+@ul
+- Création d'un graphe sparse (plus proches voisins)
+- Construction du Laplacien normalisé
+- Calculs des derniers vecteurs propres
+- Projection des observations et clustering
+@ulend
+
 ---
 ## Reconnaissance d'entités nommées
 ---
