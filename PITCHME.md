@@ -80,7 +80,7 @@ Présentation du 21/01/2019
 
 ---
 @snap[north-west]
-### Metric learning - MLB - LOSS
+### Metric learning - MLB - Loss
 @snapend
 
 @snap[center]
@@ -88,7 +88,7 @@ Présentation du 21/01/2019
 @snapend
 ---
 @snap[north-west]
-### Metric learning - MLB - AUC SCORE
+### Metric learning - MLB - AUC score
 @snapend
 
 @snap[center]
@@ -96,7 +96,7 @@ Présentation du 21/01/2019
 @snapend
 ---
 @snap[north-west]
-### Metric learning - MLB - NOUVEL ESPACE
+### Metric learning - MLB - Nouvel espace
 @snapend
 
 @snap[center]
@@ -115,7 +115,7 @@ Présentation du 21/01/2019
 @ulend
 ---
 @snap[north-west]
-### Clustering spectral - MLB - Spectre du Laplacien
+### Clustering spectral - MLB - Spectre Laplacien
 @snapend
 
 @snap[center]
@@ -126,7 +126,19 @@ Présentation du 21/01/2019
 ### Clustering spectral - MLB - Clustering
 @snapend
 
-@snap[center]
+@snap[center-west]
+
+Cluster | Count | Unique | Top | Freq | Precision | Proportion
+-----|-----|-----|-----|-----|-----|-----
+0 | 29 | 1 | contenu | 29 | 1 | 0.18239
+2 | 23 | 1 | livraison | 23 | 1 | 0.14465
+4 | 30 | 5 | livraison | 24 | 0.8 | 0.15094
+1 | 29 | 4 | livraison | 22 | 0.76 | 0.13837
+3 | 48 | 5 | promotion | 19 | 0.40 | 0.11950
+
+@snapend
+
+@snap[center-east]
 ![](assets/img/mlb_ttu_clustering.png)
 @snapend
 ---
