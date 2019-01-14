@@ -128,23 +128,19 @@ Présentation du 21/01/2019
 
 @snap[west]
 
-Cluster | Count | Unique | Top | Freq | Precision | Proportion
------ | ----- | ----- | ----- | ----- | ----- | -----
-0 | 29 | 1 | contenu | 29 | 1 | 0.18239
-2 | 23 | 1 | livraison | 23 | 1 | 0.14465
-4 | 30 | 5 | livraison | 24 | 0.8 | 0.15094
-1 | 29 | 4 | livraison | 22 | 0.76 | 0.13837
-3 | 48 | 5 | promotion | 19 | 0.40 | 0.11950
+Cluster | Top | Precision | Proportion
+----- | ----- | ----- | -----
+0 | contenu | 1 | 0.18
+2 | livraison | 1 | 0.14
+4 | livraison | 0.8 | 0.15
+1 | livraison | 0.76 | 0.14
+3 | promotion | 0.40 | 0.12
 
 @snapend
 
 @snap[east]
 <img src="assets/img/mlb_ttu_clustering.png" height="400">
 @snapend
----
-cluster | Count
------ | -----
-0 | 2
 ---
 @snap[north-west]
 ### CS - MLB - Propagation de labels
