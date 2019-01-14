@@ -119,7 +119,7 @@ Présentation du 21/01/2019
 @snapend
 
 @snap[center]
-![](assets/img/mlb_eigenvalues.png =500x)
+![](assets/img/mlb_eigenvalues.png =250x)
 @snapend
 ---
 @snap[north-west]
