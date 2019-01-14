@@ -115,7 +115,7 @@ Présentation du 21/01/2019
 @ulend
 ---
 @snap[north-west]
-### Clustering spectral - MLB - Spectre Laplacien
+### CS - MLB - Spectre du Laplacien
 @snapend
 
 @snap[center]
@@ -139,11 +139,11 @@ Cluster | Count | Unique | Top | Freq | Precision | Proportion
 @snapend
 
 @snap[center-east]
-![](assets/img/mlb_ttu_clustering.png)
+<img src="assets/img/mlb_ttu_clustering.png" height="400">
 @snapend
 ---
 @snap[north-west]
-### Clustering spectral - MLB - Propagation de labels
+### CS - MLB - Propagation de labels
 @snapend
 
 @snap[center]
