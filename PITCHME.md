@@ -19,6 +19,18 @@ Présentation du 21/01/2019
 @snapend
 
 ---
+## La société SouthPigalle
+---
+@ul
+- Start-up fondée en 2015
+- Levier de création de valeur: le texte
+- Membre de la French Tech,
+> LVMH: la maison des start-up, la Fabrique(l'usine.io), partenaire Microsoft 
+@ulend
+@snap[south-east]
+![](assets/img/logo-french-tech-small-150x150.png)
+@snapend
+---
 ## Labellisation semi-supervisée
 ---
 @snap[north-west]
