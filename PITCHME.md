@@ -75,7 +75,7 @@ Présentation du 21/01/2019
 - Apprentissage d'une pseudo-distance
 - Utilisation d'une perte de type triplet loss
 - Gradient stochastique avec minibatches
-- Projection des observations dans le nouvel espace
+- Envoi des observations dans le nouvel espace
 @ulend
 
 ---
@@ -187,6 +187,48 @@ Présentation du 21/01/2019
 @snapend
 
 ---
+@snap[north-west]
+### NER - RCV2 - Loss
+@snapend
+
+@snap[center]
+![](assets/img/NER_loss.png)
+@snapend
+---
+@snap[north-west]
+### NER - RCV2 - SGD
+@snapend
+
+@snap[center]
+![](assets/img/NER_RCV2_result.png)
+@snapend
+---
+@snap[north-west]
+### NER - RCV2 - Score F1 macro
+@snapend
+
+@snap[center]
+![](assets/img/NER_scores.png)
+@snapend
+---
+@snap[north-west]
+### NER - RCV2 - Test sur messages custom
+@snapend
+
+@snap[center]
+![](assets/img/NER_recognition_example.png)
+@snapend
+---
+## Semantic Slot Filling et reconnaissance d'intents
+---
+@snap[north-west]
+### NER - RCV2 - Scores
+@snapend
+
+@snap[center]
+![](assets/img/NER_scores.png)
+@snapend
+---
 ## Semantic Slot Filling et reconnaissance d'intents
 ---
 @snap[north-west]
@@ -207,47 +249,36 @@ Présentation du 21/01/2019
 ![](assets/img/RNN_SSF.png)
 @snapend
 ---
-## Add Some Slide Candy
-
-![](assets/img/presentation.png)
-
----
-@title[Customize Slide Layout]
-
-@snap[west span-50]
-## Customize Slide Content Layout
-@snapend
-
-@snap[east span-50]
-![](assets/img/presentation.png)
-@snapend
-
----?color=#E58537
-@title[Add A Little Imagination]
-
 @snap[north-west]
-#### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
+### SSF - ATIS - Loss
 @snapend
 
-@snap[west span-55]
-@ul[spaced text-white]
-- You will be amazed
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
+@snap[center]
+![](assets/img/ATIS_loss.png)
+@snapend
+---
+@snap[north-west]
+### SSF - ATIS - Macro score
+@snapend
+
+@snap[center]
+![](assets/img/ATIS_macro_score.png)
+@snapend
+---
+@snap[north-west]
+### SSF - ATIS - Predictions
+@snapend
+
+@snap[center]
+![](assets/img/ATIS_predictions.png)
+@snapend
+---
+# Conclusion
+---
+@snap[center]
+@ul
+- Secteur très riche en terme de cas d'utilisation
+- Complet d'un point de vue des techniques de ML
+- En pleine explosion
 @ulend
-@snapend
-
-@snap[east span-45]
-@img[shadow](assets/img/conference.png)
-@snapend
-
----?image=assets/img/presenter.jpg
-
-@snap[north span-100 headline]
-## Now It's Your Turn
-@snapend
-
-@snap[south span-100 text-06]
-[Click here to jump straight into the interactive feature guides in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
 @snapend
