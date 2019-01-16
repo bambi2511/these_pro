@@ -193,7 +193,8 @@ Présentation du 21/01/2019
 @snapend
 
 @snap[center]
-![](assets/img/NER_tensorboard.png)
+<img src="assets/img/NER_tensorboard.png" height="550">
+
 @snapend
 ---
 @snap[north-west]
