@@ -189,6 +189,14 @@ Présentation du 21/01/2019
 
 ---
 @snap[north-west]
+### NER - RCV2 - Tensorboard
+@snapend
+
+@snap[center]
+![](assets/img/NER_tensorboard.png)
+@snapend
+---
+@snap[north-west]
 ### NER - RCV2 - Loss
 @snapend
 
