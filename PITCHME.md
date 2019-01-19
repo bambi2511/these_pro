@@ -24,10 +24,14 @@ Présentation du 21/01/2019
 @ul
 - Start-up fondée en 2015
 - Levier de création de valeur: le texte
+ - Les agents conversationnels
+ - La business intelligence conversationnelle
+ - La Collective Intelligence
 - Membre de la French Tech,
   - LVMH: la maison des start-up
   - La Fabrique (L'usine.io)
   - Partenaire Microsoft
+- Jeune Entreprise Innovante
 @ulend
 
 @snap[south-east]
