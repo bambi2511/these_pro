@@ -27,7 +27,7 @@ Présentation du 21/01/2019
  - Les agents conversationnels
  - La business intelligence conversationnelle
  - La Collective Intelligence
-- Membre de la French Tech,
+- Membre de la French Tech
   - LVMH: la maison des start-up
   - La Fabrique (L'usine.io)
   - Partenaire Microsoft
@@ -42,7 +42,21 @@ Présentation du 21/01/2019
 ## Labellisation semi-supervisée
 ---
 @snap[north-west]
-### Principe
+### Objectif
+@snapend
+
+@snap[center]
+@ul
+- Algorithmes utilisés: supervisés
+- Datasets clients labellisés rares
+ - Quantité: inférence statistique
+ - Qualité: indépassable par l'algorithme
+- Chronophage, coûteux, à toujours réitérer
+@ulend
+@snapend
+---
+@snap[north-west]
+### Mode opératoire
 @snapend
 
 @snap[center]
@@ -156,6 +170,33 @@ Présentation du 21/01/2019
 ## Reconnaissance d'entités nommées
 ---
 @snap[north-west]
+### Objectif
+@snapend
+
+@snap[center]
+@ul
+- **NLU**: désambigüer le contenu de la phrase
+ - Identifier les personnes
+ - Identifier les lieux
+ - Identifier les organisations
+@ulend
+@snapend
+---
+@snap[north-west]
+### Mode opératoire
+@snapend
+
+@snap[center]
+@ul
+- **RCV1**: Dataset de Reuters, annoté par l'université d'Anvers (CoNLL 2003)
+ - Identifier les personnes
+ - Identifier les lieux
+ - Identifier les organisations
+- Un unique dataset, pour générer un modèle d'extraction d'entités nommées pour de l'anglais bien formaté
+@ulend
+@snapend
+---
+@snap[north-west]
 ### Architecture
 @snapend
 
@@ -234,6 +275,32 @@ Présentation du 21/01/2019
 @snapend
 ---
 ## Semantic Slot Filling et reconnaissance d'intents
+---
+@snap[north-west]
+### Objectif
+@snapend
+
+@snap[center]
+@ul
+- **NLU**: réaliser des tâches précises
+ - Prédire l'intent
+ - Identifier l'ensemble des entités nécessaires (Slots) pour réaliser l'action demandée
+ - Désambigüer les Slots (exemple: départ, arrivée)
+- BI conversationnel
+@ulend
+@snapend
+---
+@snap[north-west]
+### Mode opératoire
+@snapend
+
+@snap[center]
+@ul
+- **ATIS**: Air Traffic Information System
+ - Identifier les intents
+ - Identifier les slots
+@ulend
+@snapend
 ---
 @snap[north-west]
 ### Architecture
